@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/fish_imageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/fish_image_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textview_fish_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Hello,I am fish!"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/fish_imageView"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/makšķerešanas_ierice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Source,please"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@id/fish_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textview_fish_name">
+
+    </TextView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

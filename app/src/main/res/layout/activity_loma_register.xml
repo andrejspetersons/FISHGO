@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:visibility="visible"
+    tools:context=".Loma_register_activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:id="@+id/view_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@color/white"
+            />
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.025"
+            android:background="@color/black"
+            />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:text="Loma registrēšana"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.025"
+            android:background="@color/black"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cameraView"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="85sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            android:layout_weight="6"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/camera" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:id="@+id/zivja_nosaukums"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Zivja nosaukums"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/rezultats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:padding="1dp"/>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Zivs masa"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="1dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fish_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+     <Button
+         android:id="@+id/camera_btn"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="CAMERA"
+         android:layout_weight="5">
+
+     </Button>
+
+    <Button
+        android:id="@+id/predict_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="PREDICT"
+        android:layout_weight="5">
+
+    </Button>
+
+    <Button
+        android:id="@+id/iesniegt_btn"
+        android:layout_width="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Iesniegt"
+        android:layout_marginTop="15sp"
+        android:layout_weight="5">
+    </Button>
+
+    <Button
+
+        android:id="@+id/gallery_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="GALLERY"
+        android:layout_weight="5">
+
+    </Button>
+
+</LinearLayout>
+
+
+</LinearLayout>

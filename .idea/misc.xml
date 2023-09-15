@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3485" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1245" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3485" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/drawable/round_btn.xml" value="0.1" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/drawable/zoom.xml" value="0.2965" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_google_maps.xml" value="0.22" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_loma_register.xml" value="0.3061797752808989" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_lomu_vesture.xml" value="0.24048913043478262" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_main_menu.xml" value="0.2659846547314578" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_main_screen.xml" value="0.346875" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_main_screen2.xml" value="0.346875" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_registration.xml" value="0.29322916666666665" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_third.xml" value="0.22" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/calendar_theme.xml" value="0.27447916666666666" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/fish_instrument.xml" value="0.2798913043478261" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/fish_list.xml" value="0.25" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/fragment_1.xml" value="0.1" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/fragment_2.xml" value="0.10727969348659004" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/layot_fragment_2.xml" value="0.2796875" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/layout_for_fragment_2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/layout/toolbar.xml" value="0.29270833333333335" />
+        <entry key="..\:/Documents/FISHGO/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.261" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FISHGOMOBILE</string>
+    <string name="fish_name_field">Choose fish</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
